@@ -13,16 +13,20 @@ body {
 
 header {
     text-align: center;
-    padding: 0 0 40px 0;
 
     background: #000;
 }
 
+header img {
+    height: 80px;
+    margin-top: 10px;
+}
+
 main {
-    display: flex;
+    display: flex;   
     justify-content: center;
     gap: 230px;
-    margin: 10px 0 20px 0px;
+    margin: 10px 20px;
 }
 
 .conteiner-1 .text {
@@ -34,9 +38,14 @@ main {
     font-size: 80px;
 }
 
-.conteiner-1 span {
+.conteiner-1 h2 {
     text-transform: uppercase;
     font-size: 70px;
+}
+
+.conteiner-1 span {
+    background: rgba(122, 122, 122, 0.5);
+    color: #fff;
 }
 
 .conteiner-1 hr {
