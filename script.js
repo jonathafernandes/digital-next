@@ -17,8 +17,15 @@ let x = setInterval(function() {
   let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Exibe o resultado no elemento com id = "demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("demo").innerHTML = days + " dias | " + hours + " horas | "
+  + minutes + " mins | "  + seconds + " segs";
+
+  // Mudanando o tamanho da fonte:
+  function changeFont() {
+    document.getElementById("demo").style.fontSize="17px"
+  }
+
+  changeFont()
 
 // Se a contagem regressiva terminar, exiba algum texto
   if (distance < 0) {
