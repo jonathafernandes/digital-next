@@ -78,6 +78,88 @@ main {
     background: rgb(63, 62, 62);
 }
 
+/* Css do Formulário */
+.textright1 {
+    font-size: 1.12rem;
+    font-family: 'Roboto', sans-serif;
+    width: 28.12rem;
+    padding-left: 1.25rem;
+    margin-top: 0.625rem;
+}
+
+.textright2 {
+    font-size: 0.875rem;
+    font-family: 'Roboto', sans-serif;
+    width: 28.12rem;
+    padding-left: 1.25rem;
+    margin-top: 0.3125rem;
+}
+
+.area_form {
+    color: #FFF;
+    width: 28.12rem;
+    padding-left: 1.25rem;
+    padding-top: 2.5rem;
+}
+
+.textform1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.textform2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+input {
+    border-radius: 0.3125rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding-left: 0.3125rem;
+    width: 18.75rem;
+    height: 1.875rem;
+    background-color: #FFF;
+    color: #000;
+}
+
+.botao {
+    width: 18.75rem;
+    height: 3.75rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    background-color: lightcoral;
+    color: #FFF;
+}
+
+.area_contagem {
+    width: 18.75rem;
+    margin-top: 1.875rem;
+}
+
+.alerta {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+
+.area_hora {
+    width: 18.75rem;
+    height: 5rem;
+    margin-top: 0.3125rem;
+    margin-left: 1.125rem;
+    border: 0.0625rem solid #FFF;
+}
+
+#demo {
+    font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 700px) {
     main {
         display: flex;
@@ -87,5 +169,5 @@ main {
 
         margin: auto;
     }
-    
+
 }
