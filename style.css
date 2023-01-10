@@ -66,19 +66,21 @@ main {
 }
 
 .conteiner-1 img {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 
+/* CSS do Formulário */
 .conteiner-2 {
-    width: 400px;
-    height: 500px;
+    width: 370px;
+    height: 340px;
     margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
 
     background: rgb(63, 62, 62);
 }
 
-/* Css do Formulário */
 .textright1 {
     font-size: 1.12rem;
     font-family: 'Roboto', sans-serif;
@@ -129,12 +131,12 @@ input {
     font-family: 'Roboto', sans-serif;
     font-size: 1.125rem;
     background-color: lightcoral;
-    color: #FFF;
+    color: #000;
 }
 
 .area_contagem {
     width: 18.75rem;
-    margin-top: 1.875rem;
+    margin-top: 4.875rem;
 }
 
 .alerta {
@@ -160,14 +162,32 @@ input {
     align-items: center;
 }
 
+/*Responsivo: */
+@media (max-width: 1070px) {
+    main {
+        display: flex;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 850px) {
+    main {
+        display: flex;
+        gap: 10px;
+    }
+}
+
 @media (max-width: 700px) {
     main {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-        margin: auto;
+        gap: 0;
     }
 
+    .area_contagem {
+        padding-bottom: 40px;
+    }
 }
+
