@@ -1,14 +1,33 @@
-Projeto Digital Next
-----------------------------
-Tecnologias Utilizadas:
-----------------------------
-Html5
-Css3
-JavaScript
-----------------------------
+<h1 align="center"> Digital Next | Black Friday </h1>
+
+<p align="center">
+Página promocional de Black Friday.
+<br>
 Versão 1.0
-----------------------------
-Desenvolvedores:
-Jonatha Fernandes
-Willams Silva
-----------------------------
+</p>
+
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<br>
+
+<p align="center">
+  <img alt="" src="" width="100%">
+</p>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML e CSS
+- JavaScript
+- Git e Github
+
+## 💻 Projeto
+
+Página promocional de Black Friday da Digita Next.
+
+---
+👨‍💻 Desenvolvedores: Jonatha Fernandes e Willams Silva
