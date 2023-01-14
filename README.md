@@ -29,5 +29,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Página promocional de Black Friday da Digita Next.
 
+## 🖱️ Visite
+
+<a href="">https://digitalnext.netlify.app/<a/>
+
 ---
 👨‍💻 Desenvolvedores: Jonatha Fernandes e Willams Silva
