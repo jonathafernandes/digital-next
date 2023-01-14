@@ -34,4 +34,7 @@ Página promocional de Black Friday da Digita Next.
 https://digitalnext.netlify.app/
 
 ---
-👨‍💻 Desenvolvedores: Jonatha Fernandes e Willams Silva
+👨‍💻 Desenvolvedores
+<br>
+- Jonatha Fernandes
+- Willams Silva
