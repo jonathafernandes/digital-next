@@ -14,7 +14,7 @@ Versão 1.0
 <br>
 
 <p align="center">
-  <img alt="" src="./assets/layout" width="100%">
+  <img alt="" src="./assets/layout.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
