@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+input, button {
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+
+    padding: 0.5rem 1rem;
+}
+
 body {
     background: rgb(32, 31, 31);
     color: #fff;
@@ -72,8 +80,8 @@ main {
 
 /* CSS do Formulário */
 .conteiner-2 {
-    width: 370px;
-    height: 340px;
+    width: 400px;
+    height: 370px;
     margin-top: 30px;
     padding-top: 10px;
     padding-left: 15px;
@@ -82,8 +90,8 @@ main {
 }
 
 .textright1 {
-    font-size: 1.12rem;
-    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
     width: 28.12rem;
     padding-left: 1.25rem;
     margin-top: 0.625rem;
@@ -91,7 +99,7 @@ main {
 
 .textright2 {
     font-size: 0.875rem;
-    font-family: 'Roboto', sans-serif;
+    opacity: 0.8;
     width: 28.12rem;
     padding-left: 1.25rem;
     margin-top: 0.3125rem;
@@ -104,34 +112,12 @@ main {
     padding-top: 2.5rem;
 }
 
-.textform1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-}
-
-.textform2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-}
-
-input {
-    border-radius: 0.3125rem;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    padding-left: 0.3125rem;
-    width: 18.75rem;
-    height: 1.875rem;
-    background-color: #FFF;
-    color: #000;
-}
-
 .botao {
-    width: 18.75rem;
+    width: 18.15rem;
     height: 3.75rem;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.125rem;
+    font-size: 1rem;
     background-color: lightcoral;
-    color: #000;
+    cursor: pointer;
 }
 
 .area_contagem {
@@ -155,7 +141,6 @@ input {
 
 #demo {
     font-size: 1.25rem;
-    font-family: 'Roboto', sans-serif;
     height: 5rem;
     display: flex;
     justify-content: center;
